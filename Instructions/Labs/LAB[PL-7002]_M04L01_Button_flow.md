@@ -47,7 +47,7 @@ En este laboratorio, creará un flujo de botón.
 
 1. Seleccione el paso **Desencadenar manualmente un flujo**.
 
-1. Seleccione **Desencadenar manualmente un flujo** y escriba `Button clicked`.
+1. Seleccione el nombre del paso **Desencadenar manualmente un flujo** y escriba `Button clicked`.
 
 1. Seleccione **Agregar una entrada**.
 
@@ -85,11 +85,11 @@ En este laboratorio, creará un flujo de botón.
 
 1. Use sus credenciales de inquilino.
 
-1. Seleccione **Agregar una nueva fila** y escriba `New opportunity`.
+1. Seleccione el nombre del paso **Agregar una nueva fila** y escriba `New opportunity`.
 
 1. Seleccione **Oportunidades** para **Nombre de tabla**
 
-1. Seleccione el campo **Cliente** y seleccione el icono de Contenido dinámico.
+1. Seleccione el campo **Cliente**, el icono Contenido dinámico y **Ver más**.
 
 1. Seleccione **Nombre de cliente**.
 
@@ -99,15 +99,11 @@ En este laboratorio, creará un flujo de botón.
 
 1. Seleccione **Mostrar todo**.
 
-1. Seleccione el campo **Dirección** y seleccione el icono Contenido dinámico.
-
-1. Seleccione **Dirección completa**.
-
 1. Seleccione el campo **Cantidad** y seleccione el icono Contenido dinámico.
 
 1. Seleccione **Venta potencial**.
 
-1. Seleccione el campo **Notas** y seleccione el icono Contenido dinámico.
+1. Seleccione el campo **Notas**, el icono Contenido dinámico y **Ver más**.
 
 1. Seleccione **Comentarios**.
 
