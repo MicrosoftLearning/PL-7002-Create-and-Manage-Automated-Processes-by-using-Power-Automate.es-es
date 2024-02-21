@@ -19,7 +19,7 @@ En este laboratorio creará un sitio y una lista de SharePoint.
   
 ## Requisitos previos
 
-- Debe de haber completado **Laboratorio 0: Validación del entorno de laboratorio**
+- Debe de haber completado la práctica **Laboratorio 0: Validación del entorno de laboratorio**
 
 ## Pasos detallados
 
@@ -27,7 +27,9 @@ En este laboratorio creará un sitio y una lista de SharePoint.
 
 ### Tarea 1.1 Crear un sitio de SharePoint
 
-1. En el [portal creador de Power Apps](https://make.powerapps.com), seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del explorador y, a continuación, seleccione **OneDrive**.
+1. En el [Portal de creación de Power Apps](https://make.powerapps.com), seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del explorador y, a continuación, seleccione **Sharepoint**.
+
+1. Si se muestra la **Página de inicio de bienvenida a SharePoint**, seleccione **X** para cerrar el cuadro de diálogo.
 
 1. En SharePoint, seleccione **+Crear sitio**.
 
@@ -38,6 +40,8 @@ En este laboratorio creará un sitio y una lista de SharePoint.
 1. Seleccione **Crear sitio**.
 
 1. Seleccione **Finalizar**.
+
+1. Si se muestra el cuadro de diálogo emergente **Inicie el diseño de su sitio**, cierre el cuadro de diálogo.
 
 ### Tarea 1.2 Crear una lista de SharePoint
 

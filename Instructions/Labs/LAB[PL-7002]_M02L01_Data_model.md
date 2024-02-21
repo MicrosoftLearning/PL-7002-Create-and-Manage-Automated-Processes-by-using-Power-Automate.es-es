@@ -21,7 +21,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
   
 ## Requisitos previos
 
-- Debe de haber completado **Laboratorio 0: Validación del entorno de laboratorio**
+- Debe de haber completado la práctica **Laboratorio 0: Validación del entorno de laboratorio**
 
 ## Pasos detallados
 
@@ -119,6 +119,8 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Formato: **Texto**
    1. Obligatorio: **Opcional**
 
+1. Seleccione **Guardar**.
+
 ### Tarea 1.4: Adición de una columna de elección
 
 1. En el panel **Columnas y datos de oportunidades**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
@@ -127,7 +129,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Tipo de datos: **Opción**
    1. Obligatorio: **Opcional**
 
-1. Seleccione **No** para **¿Sincronizar con opción global?**
+1. Seleccione **No** en **¿Sincronizar con opción global?**
 
 1. Escriba `New` en **Etiqueta** y `1` en **Valor**.
 
@@ -145,7 +147,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 ### Tarea 2.1: Creación de una columna de búsqueda
 
-1. Vaya al portal Creador de aplicaciones de Power Apps <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
