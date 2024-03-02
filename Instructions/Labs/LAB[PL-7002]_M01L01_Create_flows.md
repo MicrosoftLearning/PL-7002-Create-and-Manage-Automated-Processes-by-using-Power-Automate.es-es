@@ -32,6 +32,8 @@ En este laboratorio creará flujos de nube.
 
 1. Vaya al portal de Power Automate <https://make.powerautomate.com>.
 
+1. Si aparece el cuadro de diálogo emergente **Le damos la bienvenida a Power Automate**, seleccione **Iniciar**.
+
 1. Seleccione el entorno **Dev One**.
 
     ![Selector de entornos de Power Automate.](../media/select-dev-one-environment-power-automate.png)
@@ -53,6 +55,8 @@ En este laboratorio creará flujos de nube.
 1. En **Notificaciones**, seleccione **Crear**.
 
 1. Seleccione **Crear flujo**.
+
+1. Si aparece el cuadro de diálogo emergente **Su flujo está listo para funcionar**, seleccione **No volver a mostrarme esto** y seleccione **Listo**.
 
     ![Captura de pantalla de los detalles del flujo.](../media/flow-details.png)
 
@@ -144,6 +148,8 @@ En este laboratorio creará flujos de nube.
 
 1. Probar el flujo.
 
+1. Seleccione **Probar**, **Manualmente** y después **Probar**.
+
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
 
 ## Ejercicio 3: Creación de un flujo de nube desde cero
@@ -160,7 +166,7 @@ En este laboratorio creará flujos de nube.
 
 1. Escriba `Important email` en **Nombre de flujo**.
 
-1. Escriba `email` en el cuadro de búsqueda.
+1. Escriba `email` en la búsqueda de todos los desencadenadores.
 
 1. Seleccione **Cuando llega un nuevo correo electrónico (V3)**.
 
