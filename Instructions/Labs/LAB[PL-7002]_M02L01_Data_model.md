@@ -29,7 +29,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 ### Tarea 1.1: Creación de la tabla de oportunidades
 
-1. Vaya al portal Creador de aplicaciones de Power Apps <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -39,13 +39,14 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
     ![Captura de pantalla de la creación de una nueva tabla en Dataverse](../media/create-new-table-dataverse.png)
 
-1. Seleccione el icono de **lápiz** situado junto a Nueva tabla
+1. Seleccione **Editar propiedades de tabla**.
 
     ![Captura de pantalla del nombre de la nueva tabla.](../media/table-name.png)
 
 1. En **Nombre para mostrar**, escriba `Opportunity`.
 
 1. Seleccione **Guardar**.
+
 
 ### Tarea 1.2: Columna principal
 
@@ -58,6 +59,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 1. Selecciona **Actualización**.
 
 1. Seleccione **Crear**.
+
 
 ### Tarea 1.3: Adición de columnas
 
@@ -91,7 +93,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Tipo de datos: **Línea de texto única**
    1. Obligatorio: **Opcional**
 
-1. Expanda la opción **Avanzadas** y escriba `200` para **Número máximo de caracteres**.
+1. Expande **Opciones avanzadas** y escribe `200` para **Número máximo de caracteres**
 
 1. Seleccione **Guardar**.
 
@@ -121,12 +123,13 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. Seleccione **Guardar**.
 
+
 ### Tarea 1.4: Adición de una columna de elección
 
 1. En el panel **Columnas y datos de oportunidades**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
 
    1. Nombre para mostrar: `Status`
-   1. Tipo de datos: **Opción**
+   1. Tipo de datos: **Elección** > **Elección**
    1. Obligatorio: **Opcional**
 
 1. Seleccione **No** en **¿Sincronizar con opción global?**
@@ -143,11 +146,12 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. Seleccione **Guardar**.
 
+
 ## Ejercicio 2: Creación de relaciones
 
 ### Tarea 2.1: Creación de una columna de búsqueda
 
-1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -170,7 +174,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 ### Tarea 3 1: Adición de registros de oportunidad
 
-1. Vaya al portal Creador de aplicaciones de Power Apps <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -186,8 +190,8 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Nombre del propietario: `MOD Administrator`
    1. Cliente: `Adventure Works`
    1. Fecha de cierre estimada: **Elegir una fecha del mes anterior**
-   1. Estado: **Cerrado**
    1. Importe: `10,000`
+   1. Estado: **Cerrado**
 
 1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
 
@@ -204,8 +208,8 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Nombre del propietario: `MOD Administrator`
    1. Cliente: `Coho Winery`
    1. Fecha de cierre estimada: **Elegir una fecha futura del mes siguiente**
-   1. Estado: **Nuevo**
    1. Importe: `25,000`
+   1. Estado: **Nuevo**
 
 1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
 
@@ -213,9 +217,9 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Nombre del propietario: `MOD Administrator`
    1. Cliente: `Fourth Coffee`
    1. Fecha de cierre estimada: **Elegir una fecha futura del mes siguiente**
-   1. Estado: **Abrir**
    1. Importe: `15,000`
+   1. Estado: **Abrir**
 
     ![Captura de pantalla del panel Editar datos.](../media/edit-data.png)
 
-1. Cierre la pestaña Editar datos.
+1. Cierre la pestaña.

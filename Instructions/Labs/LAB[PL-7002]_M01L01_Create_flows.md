@@ -30,9 +30,9 @@ En este laboratorio creará flujos de nube.
 
 ### Tarea 1.1: Selección de una plantilla
 
-1. Vaya al portal de Power Automate <https://make.powerautomate.com>.
+1. Ve al portal de Power Automate `https://make.powerautomate.com`
 
-1. Si aparece el cuadro de diálogo emergente **Le damos la bienvenida a Power Automate**, seleccione **Iniciar**.
+1. Si aparece el cuadro de diálogo emergente **Le damos la bienvenida a Power Automate**, selecciona **Iniciar**.
 
 1. Seleccione el entorno **Dev One**.
 
@@ -42,7 +42,7 @@ En este laboratorio creará flujos de nube.
 
 1. Seleccione la pestaña **Botón**.
 
-1. Escriba `location` en el campo de búsqueda.
+1. Escribe `location` en el campo **Buscar plantillas**.
 
     ![Captura de pantalla de plantillas de flujo.](../media/flow-templates.png)
 
@@ -56,9 +56,10 @@ En este laboratorio creará flujos de nube.
 
 1. Seleccione **Crear flujo**.
 
-1. Si aparece el cuadro de diálogo emergente **Su flujo está listo para funcionar**, seleccione **No volver a mostrarme esto** y seleccione **Listo**.
+1. Si aparece el cuadro de diálogo emergente **Su flujo está listo para funcionar**, selecciona **No volver a mostrarme esto** y selecciona **Listo**.
 
     ![Captura de pantalla de los detalles del flujo.](../media/flow-details.png)
+
 
 ### Tarea 1.2: Ejecución del flujo
 
@@ -73,6 +74,7 @@ En este laboratorio creará flujos de nube.
 1. Seleccione **Listo**.
 
     ![Captura de pantalla del historial de ejecución de flujos.](../media/run-history.png)
+
 
 ### Tarea 1.3: Revisión del flujo
 
@@ -100,6 +102,7 @@ En este laboratorio creará flujos de nube.
 
 1. Cierre el panel **Comprobador de flujo**.
 
+
 ### Tarea 1.4: Prueba del flujo
 
 1. Seleccione sucesivamente **Probar**, **Automáticamente**, **Con un desencadenador usado recientemente** y, luego, seleccione la ejecución del flujo.
@@ -110,17 +113,18 @@ En este laboratorio creará flujos de nube.
 
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
 
+
 ## Ejercicio 2: Creación de un flujo de nube con Copilot
 
 ### Tarea 2.1: Inserción de una solicitud
 
-1. Vaya al portal de Power Automate <https://make.powerautomate.com>.
+1. Ve al portal de Power Automate `https://make.powerautomate.com` 
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. En el menú de la izquierda, seleccione la pestaña **Inicio**.
+1. Seleccione la pestaña **Inicio** en el menú de la izquierda.
 
-1. En **Vamos a automatizar algo. ¿Qué debe hacer?**, escriba `Every day send me an email with the daily summary from MSN Weather`.
+1. En **Vamos a automatizar algo. ¿Qué debe hacer?**, escribe `Every day send me an email with the daily summary from MSN Weather`.
 
     ![Captura de pantalla de la solicitud de Copilot.](../media/copilot-prompt.png)
 
@@ -134,29 +138,29 @@ En este laboratorio creará flujos de nube.
 
     ![Captura de pantalla del flujo creado por Copilot.](../media/copilot-flow.png)
 
+
 ### Tarea 2.2: Configuración de los pasos del flujo
 
 1. Seleccione el paso **Obtener previsión para hoy**.
 
-    ![Captura de pantalla de los parámetros del paso del flujo.](../media/flow-step-parameters.png)
-
 1. En **Ubicación**, escriba `Seattle`.
 
-1. Seleccione la **X** para borrar el contenido de **Unidades** y, en la lista desplegable, seleccione **Imperial**.
+1. Selecciona la **X** para borrar el contenido de **Unidades** y, en la lista desplegable, selecciona **Imperial**.
+
+    ![Captura de pantalla de los parámetros del paso del flujo.](../media/flow-step-parameters.png)
 
 1. Seleccione **Guardar**.
 
-1. Probar el flujo.
-
-1. Seleccione **Probar**, **Manualmente** y después **Probar**.
+1. Para probar el flujo, selecciona **Probar**, selecciona **Manualmente** y después **Ejecutar flujo**. Seleccione **Listo**.
 
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
+
 
 ## Ejercicio 3: Creación de un flujo de nube desde cero
 
 ### Tarea 3.1: Creación del desencadenador
 
-1. Vaya al portal de Power Automate <https://make.powerautomate.com>.
+1. Ve al portal de Power Automate `https://make.powerautomate.com`
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -166,13 +170,14 @@ En este laboratorio creará flujos de nube.
 
 1. Escriba `Important email` en **Nombre de flujo**.
 
-1. Escriba `email` en la búsqueda de todos los desencadenadores.
+1. Escribe `email arrives` en el campo **Buscar todos los desencadenadores**.
 
 1. Seleccione **Cuando llega un nuevo correo electrónico (V3)**.
 
     ![Captura de pantalla del cuadro de diálogo de compilación de un flujo automatizado.](../media/build-automated-flow.png)
 
 1. Seleccione **Crear**.
+
 
 ### Tarea 3.2: Configuración del desencadenador
 
@@ -187,6 +192,7 @@ En este laboratorio creará flujos de nube.
 1. En **Importancia**, seleccione **Alta**.
 
 1. En **Carpeta**, seleccione **Bandeja de entrada**.
+
 
 ### Tarea 3.3: Adición de una acción
 
@@ -206,7 +212,7 @@ En este laboratorio creará flujos de nube.
 
 1. En **Destinatario**, escriba el identificador de usuario del inquilino.
 
-1. Seleccione el campo **Texto de notificación** y elija el icono de contenido dinámico.
+1. Escribe `/` en el campo **Texto de notificación** y selecciona **Insertar contenido dinámico**.
 
     ![Captura de pantalla del contenido dinámico.](../media/flow-dynamic-content.png)
 
@@ -220,11 +226,12 @@ En este laboratorio creará flujos de nube.
 
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
 
+
 ## Ejercicio 4: Supervisión de flujos
 
 ### Tarea 4.1: Actividad del flujo de nube
 
-1. Vaya al portal de Power Automate <https://make.powerautomate.com>.
+1. Ve al portal de Power Automate `https://make.powerautomate.com`
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
@@ -237,3 +244,4 @@ En este laboratorio creará flujos de nube.
 1. En el menú de la izquierda, seleccione la pestaña **Actividad de flujo de nube**.
 
     ![Captura de pantalla de la actividad de flujo de nube.](../media/cloud-flow-activity.png)
+
