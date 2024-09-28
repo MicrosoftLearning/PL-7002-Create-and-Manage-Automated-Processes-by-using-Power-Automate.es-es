@@ -1,5 +1,7 @@
 ---
-laboratorio: título: "Laboratorio 7: Módulo de filtros de desencadenador: "Módulo 5: Integración profunda de Power Automate en varios orígenes de datos"
+lab:
+  title: 'Laboratorio 7: Filtros del desencadenador'
+  module: 'Module 5: Power Automate’s deep integration across multiple data sources'
 ---
 
 # Laboratorio de práctica 7: filtros de desencadenador
@@ -26,13 +28,13 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 ### Tarea 1.1: Nombre del esquema de columna
 
-1. Vaya al portal de Power Apps Maker <https://make.powerapps.com>.
+1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
 1. Seleccione **Tablas** en el panel de navegación izquierdo.
 
-1. Seleccionar **Oportunidad**
+1. Seleccione **Oportunidad**.
 
 1. En **Esquema**, seleccione **Columnas**.
 
@@ -44,19 +46,20 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
     ![Captura de pantalla del nombre del esquema de columna.](../media/column-schema-name.png)
 
-1. Copie el **nombre lógico** para su uso en el flujo.
+1. Copia el **nombre lógico** para su uso en el flujo.
 
    > **Nota:** El prefijo de la columna de estado puede ser diferente.
+
 
 ## Ejercicio 2: Creación de un flujo automatizado
 
 ### Tarea 2.1: Creación del desencadenador
 
-1. Vaya al portal de Power Automate <https://make.powerautomate.com>.
+1. Ve al portal de Power Automate `https://make.powerautomate.com`
 
 1. Asegúrese de que está en el entorno **Dev One**.
 
-1. Seleccione la pestaña **+ Crear** en el menú de la izquierda.
+1. Seleccione la pestaña **+ Crear** en el menú de navegación de la izquierda.
 
 1. Seleccione **Flujo de nube automatizado**.
 
@@ -68,19 +71,21 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Crear**.
 
+
 ### Tarea 2.2: Configuración del desencadenador
 
 1. Seleccione el paso **Cuando se agrega, modifica o elimina una fila**.
 
-1. Seleccione el nombre de paso **Cuando se agrega, modifica o elimina una fila** y escriba `Opportunity changed`.
+1. Selecciona el nombre del paso **Cuando se agrega, modifica o elimina una fila** y escribe `Opportunity changed`.
 
 1. Seleccione **Modificado** para **Cambiar tipo**.
 
-1. Seleccione **Oportunidades** para **Nombre de tabla**
+1. Selecciona **Oportunidades** para **Nombre de tabla**
 
-1. Seleccione **Organización** para el **ámbito**.
+1. Selecciona **Organización** para el **ámbito**.
 
     ![Captura de pantalla del desencadenador de fila de actualización.](../media/update-trigger.png)
+
 
 ### Tarea 2.3: enviar un mensaje de correo electrónico
 
@@ -90,13 +95,13 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Enviar un correo electrónico (V2)** en **Office 365 Outlook**.
 
-1. Seleccione **Enviar un nombre de paso de correo electrónico (V2)** y escriba `Notify by email`.
+1. Selecciona **Enviar un nombre de paso de correo electrónico (V2)** y escribe `Notify by email`
 
 1. Seleccione el campo **Para** y seleccione **Escribir valor personalizado**.
 
 1. Escriba el identificador de usuario del inquilino en **Para**.
 
-1. Seleccione el campo **Asunto** y escriba `Opportunity closed`.
+1. Selecciona el campo **Asunto** y escribe `Opportunity closed`
 
 1. Seleccione el campo **Cuerpo** y seleccione el icono Contenido dinámico.
 
@@ -106,15 +111,17 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Estado** en **Oportunidad modificada**.
 
+
 ### Tarea 2.4: Filtro de columna
 
 1. Seleccione el paso de desencadenador **Oportunidad cambiada**.
 
 1. Seleccione **Mostrar todo**
 
-1. Seleccione el campo **Seleccionar columnas** y escriba `cr977_status`
+1. Selecciona el campo **Seleccionar columnas** y escribe el **nombre lógico** del ejercicio anterior, por ejemplo: `cr977_status`
 
    > **Nota:** El prefijo de la columna de estado será diferente.
+
 
 ### Tarea 2.5: Filtro de fila
 
@@ -122,7 +129,7 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Mostrar todo**
 
-1. Seleccione el campo **Filtrar filas** y escriba `cr977_status eq 3`
+1. Selecciona el campo **Filtrar filas** y escribe `cr977_status eq 3` con el **Nombre lógico** del ejercicio anterior.
 
     ![Captura de pantalla del filtro de desencadenador.](../media/trigger-filter.png)
 
@@ -130,4 +137,5 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Guardar**.
 
-1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
+1. Selecciona el botón **<-****Atrás** de la parte superior izquierda de la barra de comandos.
+
