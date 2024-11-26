@@ -82,19 +82,11 @@ En este laboratorio creará flujos de nube.
 
     ![Captura de pantalla de los detalles de ejecución del flujo.](../media/flow-run-collapsed.png)
 
-1. Seleccione el paso **Condición** para expandir los pasos del flujo.
-
-    ![Captura de pantalla de los pasos de ejecución del flujo.](../media/flow-run-steps.png)
-
 1. Seleccione el paso **Obtener previsión para hoy** con el tic verde.
 
     ![Captura de pantalla de la salida del paso de ejecución del flujo.](../media/flow-run-step.png)
 
 1. Seleccione **Editar**.
-
-1. Seleccione el paso **Condición** para expandir los pasos del flujo.
-
-1. Seleccione **Expandir condición**.
 
 1. Seleccione uno de los pasos **Enviar una notificación de inserción**.
 
@@ -124,7 +116,7 @@ En este laboratorio creará flujos de nube.
 
 1. Seleccione la pestaña **Inicio** en el menú de la izquierda.
 
-1. En **Vamos a automatizar algo. ¿Qué debe hacer?**, escribe `Every day send me an email with the daily summary from MSN Weather`.
+1. En **Crear tu automatización con Copilot**, escribe `Every day send me an email with the daily summary from MSN Weather`
 
     ![Captura de pantalla de la solicitud de Copilot.](../media/copilot-prompt.png)
 
@@ -151,7 +143,9 @@ En este laboratorio creará flujos de nube.
 
 1. Seleccione **Guardar**.
 
-1. Para probar el flujo, selecciona **Probar**, selecciona **Manualmente** y después **Ejecutar flujo**. Seleccione **Listo**.
+1. Para probar el flujo, selecciona **Probar**, selecciona **Manualmente** y, después, selecciona **Probar**. 
+
+1. Selecciona **Ejecutar flujo** y, a continuación, selecciona **Listo**.
 
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
 
@@ -198,6 +192,8 @@ En este laboratorio creará flujos de nube.
 
 1. Seleccione el icono **+** en el paso del desencadenador y elija **Agregar una acción**.
 
+1. Si se te solicita, selecciona **Permitir** para **Ver texto e imágenes copiadas en el Portapapeles**.
+
 1. Escriba `notification` en el cuadro de búsqueda.
 
     ![Captura de pantalla de búsqueda de acciones.](../media/search-action.png)
@@ -238,6 +234,8 @@ En este laboratorio creará flujos de nube.
 1. Seleccione **... Más** en el menú de la izquierda.
 
     ![Captura de pantalla de más opciones en el portal de Power Automate.](../media/power-automate-menu.png)
+
+1. Selecciona **Detectar todo** y busca **Actividad de flujo de nube** en la sección Supervisión.
 
 1. Seleccione el icono de anclaje para **Actividad de flujo de nube**.
 

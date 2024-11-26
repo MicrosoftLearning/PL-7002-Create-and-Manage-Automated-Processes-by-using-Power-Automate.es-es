@@ -107,7 +107,7 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Asunto de oportunidad** en **Oportunidad cambiada**.
 
-1. Seleccione el campo **Cuerpo**, el icono Contenido dinámico y **Ver más**.
+1. Selecciona el campo **Cuerpo**, selecciona el icono Contenido dinámico y selecciona **Ver más**.
 
 1. Seleccione **Estado** en **Oportunidad modificada**.
 

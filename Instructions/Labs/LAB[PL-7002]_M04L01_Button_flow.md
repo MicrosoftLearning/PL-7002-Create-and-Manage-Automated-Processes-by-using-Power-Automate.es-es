@@ -70,7 +70,7 @@ En este laboratorio, creará un flujo de botón.
 
 1. Seleccione **Número**
 
-1. Escriba `Potential Sale` en **Entrada**.
+1. Escribe `Potential Sale` en **Número**.
 
     ![Captura de pantalla de la entrada del usuario.](../media/user-input.png)
 
@@ -83,7 +83,7 @@ En este laboratorio, creará un flujo de botón.
 
 1. Selecciona **Agregar una nueva fila** en **Microsoft Dataverse**.
 
-1. Seleccione **Iniciar sesión**
+1. Seleccione **Iniciar sesión**.
 
 1. Use sus credenciales de inquilino.
 
@@ -91,25 +91,25 @@ En este laboratorio, creará un flujo de botón.
 
 1. Selecciona **Oportunidades** para **Nombre de tabla**
 
-1. Escribe `/` en el campo **Cliente** y selecciona **Insertar contenido dinámico**, selecciona **Ver más**.
+1. Escribe `/` en el campo **Cliente** y selecciona **Insertar contenido dinámico** y, después, **Ver más**.
 
 1. Seleccione **Nombre de cliente**.
-
-1. Selecciona el campo **Asunto de la oportunidad** y escribe `New opportunity`
 
 1. Selecciona el campo **Nombre del propietario** y escribe `MOD Administrator`
 
 1. Seleccione **Mostrar todo**.
 
+1. Selecciona el campo **Asunto de la oportunidad** y escribe `New opportunity`
+
 1. Escribe `/` en el campo **Importe** y selecciona **Insertar contenido dinámico**.
 
 1. Seleccione **Venta potencial**.
 
-1. Seleccione el campo **Notas**, el icono Contenido dinámico y **Ver más**.
+1. Selecciona el campo **Notas**, el icono Contenido dinámico y **Ver más**.
 
 1. Seleccione **Comentarios**.
 
-1. Escribe `/` en el campo **Fecha estimada de cierre** y selecciona **Insertar expresión**.
+1. Escribe `/` en el campo **Fecha de cierre estimada** y selecciona **Insertar expresión**.
 
 1. Escriba la expresión `addDays(utcNow(),30)` y seleccione **Agregar**.
 
