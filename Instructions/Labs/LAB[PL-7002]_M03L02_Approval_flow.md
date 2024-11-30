@@ -39,7 +39,7 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Escriba `Task approval` en **Nombre de flujo**.
 
-1. Escriba `SharePoint` en el cuadro de búsqueda.
+1. Escribe `SharePoint` en Buscar todos los desencadenadores.
 
 1. Seleccione **Cuando se crea un elemento**.
 
@@ -119,7 +119,7 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Escriba `update item` en el cuadro de búsqueda.
 
-1. Seleccione **Actualizar elemento** en **SharePoint**.
+1. Selecciona **Actualizar elemento** en **SharePoint**.
 
 1. Selecciona el nombre del paso **Actualizar elemento** y escribe `Set task to approved`
 
@@ -143,7 +143,7 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Escriba `update item` en el cuadro de búsqueda.
 
-1. Seleccione **Actualizar elemento** en **SharePoint**.
+1. Selecciona **Actualizar elemento** en **SharePoint**.
 
 1. Seleccione el nombre del paso **Actualizar elemento 1** y escriba `Set task to declined`.
 
@@ -174,7 +174,7 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Vaya al sitio de SharePoint y seleccione la lista **Tareas**.
 
-1. Seleccione **+ Nuevo**, escriba los datos siguientes y seleccione **Guardar**:
+1. Selecciona **+ Agregar nuevo elemento**, escribe los datos siguientes y selecciona **Guardar**:
 
    1. Title=`Approval test`
    1. Description=`Test`

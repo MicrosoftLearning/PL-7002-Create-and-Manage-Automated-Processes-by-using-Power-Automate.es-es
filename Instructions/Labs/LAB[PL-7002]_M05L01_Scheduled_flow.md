@@ -82,7 +82,7 @@ En este laboratorio, creará un flujo programado.
 
 1. Seleccione **Integrado** en **Runtime**.
 
-1. Seleccione **Seleccionar** en **Operaciones de datos**.
+1. Seleccions **Seleccionar** en **Operación de datos**.
 
 1. Seleccione el campo **Desde** y seleccione el icono Contenido dinámico.
 
@@ -102,7 +102,7 @@ En este laboratorio, creará un flujo programado.
 
 1. Selecciona el campo **Escribir clave** y escribe `Due`
 
-1. Seleccione el campo **Escribir valor**, seleccione el icono Contenido dinámico y seleccione **Ver más**.
+1. Selecciona el campo **Escribir valor**, selecciona el icono Contenido dinámico y selecciona **Ver más**.
 
 1. Seleccione **Fecha límite** en **Nuevas tareas**.
 
