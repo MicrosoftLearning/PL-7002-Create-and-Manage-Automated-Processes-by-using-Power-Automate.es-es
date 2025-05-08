@@ -124,7 +124,7 @@ En este laboratorio creará flujos de nube.
 
     ![Captura de pantalla del flujo sugerido.](../media/copilot-suggestion.png)
 
-1. Seleccione **Siguiente**.
+1. Selecciona **Conservarlo y continuar**.
 
 1. Seleccione **Crear flujo**.
 
