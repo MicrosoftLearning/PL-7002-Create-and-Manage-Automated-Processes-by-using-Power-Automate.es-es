@@ -52,7 +52,7 @@ En este laboratorio, creará un flujo de botón.
 
 1. Seleccione **Agregar una entrada**.
 
-1. Seleccione **Texto**.
+1. Selecciona **Texto**.
 
 1. Escriba `Customer Name` en **Entrada**.
 
@@ -111,7 +111,7 @@ En este laboratorio, creará un flujo de botón.
 
 1. Escribe `/` en el campo **Fecha de cierre estimada** y selecciona **Insertar expresión**.
 
-1. Escriba la expresión `addDays(utcNow(),30)` y seleccione **Agregar**.
+1. Escriba la expresión `utcNow()` y seleccione **Agregar**.
 
     ![Captura de pantalla de la nueva acción de oportunidad.](../media/new-opportunity-action.png)
 
