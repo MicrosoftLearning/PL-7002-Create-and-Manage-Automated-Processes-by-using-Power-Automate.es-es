@@ -9,7 +9,6 @@ lab:
 En este laboratorio creará flujos de nube.
 
 ## Aprendizaje
-
 - Creación de flujos de nube de Power Automate a partir de una plantilla y con Copilot
 - Creación de un flujo de nube de Power Automate desde cero y adición de acciones
 
@@ -106,7 +105,7 @@ En este laboratorio creará flujos de nube.
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
 
 
-## Ejercicio 2: Creación de un flujo de nube con Copilot
+## Ejercicio 2: Creación de un flujo de nube con Copilot
 
 ### Tarea 2.1: Inserción de una solicitud
 

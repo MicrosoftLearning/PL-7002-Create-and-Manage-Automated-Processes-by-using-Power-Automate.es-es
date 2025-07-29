@@ -39,7 +39,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
     ![Captura de pantalla de la creación de una nueva tabla en Dataverse](../media/create-new-table-dataverse.png)
 
-1. En **Nombre para mostrar**, escriba `Opportunity`.
+1. En **Nombre para mostrar**, escribe `Opportunity`.
 
 
 ### Tarea 1.2: Columna principal
@@ -178,7 +178,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. En el panel **Columnas y datos de oportunidades**, seleccione el símbolo de intercalación desplegable situado junto a **Editar** y seleccione **Editar en una pestaña nueva**.
 
-1. Introduzca o seleccione los siguientes valores:
+1. Selecciona **+ Nueva fila** y escribe o selecciona los valores siguientes:
 
    1. Asunto de la oportunidad: `100 Widgets`
    1. Nombre del propietario: `MOD Administrator`
