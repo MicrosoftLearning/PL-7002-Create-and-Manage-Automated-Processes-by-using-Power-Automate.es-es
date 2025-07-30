@@ -83,6 +83,8 @@ En este laboratorio, creará un flujo de botón.
 
 1. Selecciona **Agregar una nueva fila** en **Microsoft Dataverse**.
 
+1. Escribe `Dataverse` en **Nombre de conexión**.
+
 1. Seleccione **Iniciar sesión**.
 
 1. Use sus credenciales de inquilino.

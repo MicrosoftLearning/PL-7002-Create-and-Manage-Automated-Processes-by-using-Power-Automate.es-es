@@ -43,3 +43,37 @@ En este ejercicio, comprobará que puede acceder a Power Apps.
 1. En la parte superior derecha de la pantalla, compruebe que el **Entorno** está establecido en **Dev One**. Aquí es donde trabajará para la totalidad de este laboratorio. Si no es así, seleccione el entorno de **Dev One**.
 
     ![Selector de entorno.](../media/select-dev-one-environment.png)
+
+### Tarea 1.2: Actualización del explorador
+
+La aplicación de las últimas actualizaciones al explorador evita problemas en el siguiente laboratorio al crear aplicaciones.
+
+1. Abre el explorador **Microsoft Edge**.
+
+1. Selecciona **Comandos (...)** en la parte superior derecha del explorador, **Ayuda y comentarios** y, después, selecciona **Acerca de Microsoft Edge**.
+
+1. Aplica las actualizaciones y reinicia el explorador si es necesario.
+
+## Ejercicio 2: Microsoft Teams
+
+En este ejercicio, comprobarás que puedes acceder a un equipo en Microsoft Teams.
+
+### Tarea 2.1: Inicio de sesión en Microsoft Teams
+
+1. Compruebe que tiene las **credenciales de Microsoft 365** del host de laboratorio autorizado disponible. Las credenciales estarán en la pestaña **Recursos**.
+
+1. En una pestaña nueva del explorador, vaya a `https://teams.microsoft.com`
+
+1. Si se te pide que te familiarices con Teams, selecciona **Introducción** y cierra la ventana emergente.
+
+### Tarea 2.2: Creación de un equipo
+
+1. Si no se muestra ningún equipo, selecciona **Crear equipo** en la parte superior derecha de la página.
+
+1. Escribe `Contoso` en el campo **Nombre del equipo**.
+
+1. Escribe `General` en el campo **Nombre del primer canal**.
+
+1. Seleccione **Crear**.
+
+1. Seleccione **Omitir**.
