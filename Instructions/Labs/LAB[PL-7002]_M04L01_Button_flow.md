@@ -43,7 +43,6 @@ En este laboratorio, creará un flujo de botón.
 
 1. Seleccione **Crear**.
 
-
 ### Tarea 1.2: Adición de entrada de usuario
 
 1. Seleccione el paso **Desencadenar manualmente un flujo**.
@@ -74,7 +73,6 @@ En este laboratorio, creará un flujo de botón.
 
     ![Captura de pantalla de la entrada del usuario.](../media/user-input.png)
 
-
 ### Tarea 1.3: Adición de la acción Crear oportunidad
 
 1. Seleccione el icono **+** en el paso del desencadenador y elija **Agregar una acción**.
@@ -97,19 +95,15 @@ En este laboratorio, creará un flujo de botón.
 
 1. Seleccione **Nombre de cliente**.
 
+1. Selecciona el campo **Asunto de la oportunidad** y escribe `New opportunity`
+
 1. Selecciona el campo **Nombre del propietario** y escribe `MOD Administrator`
 
 1. Seleccione **Mostrar todo**.
 
-1. Selecciona el campo **Asunto de la oportunidad** y escribe `New opportunity`
-
 1. Escribe `/` en el campo **Importe** y selecciona **Insertar contenido dinámico**.
 
 1. Seleccione **Venta potencial**.
-
-1. Selecciona el campo **Notas**, el icono Contenido dinámico y **Ver más**.
-
-1. Seleccione **Comentarios**.
 
 1. Escribe `/` en el campo **Fecha de cierre estimada** y selecciona **Insertar expresión**.
 
@@ -117,8 +111,11 @@ En este laboratorio, creará un flujo de botón.
 
     ![Captura de pantalla de la nueva acción de oportunidad.](../media/new-opportunity-action.png)
 
-1. Seleccione **Guardar**.
+1. Selecciona el campo **Notas**, el icono Contenido dinámico y **Ver más**.
 
+1. Seleccione **Comentarios**.
+
+1. Seleccione **Guardar**.
 
 ## Ejercicio 2: Prueba del flujo de botón
 
@@ -144,7 +141,6 @@ En este laboratorio, creará un flujo de botón.
 
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
 
-
 ### Tarea 2.2: Comprobación del registro de oportunidades creado
 
 1. Vaya al portal de Power Apps Maker `https://make.powerapps.com`.
@@ -154,4 +150,3 @@ En este laboratorio, creará un flujo de botón.
 1. Seleccione **Tablas** en el panel de navegación izquierdo.
 
 1. Seleccione **Oportunidad**.
-
