@@ -16,7 +16,7 @@ En este laboratorio, creará un flujo programado.
 
 - Crear un flujo programado
 - Consulta de la lista de SharePoint
-- Usar operaciones de datos
+- Uso de operaciones de datos
 - Prueba del flujo
   
 ## Requisitos previos
@@ -45,13 +45,11 @@ En este laboratorio, creará un flujo programado.
 
 1. Seleccione **Crear**.
 
-
 ### Tarea 1.2: Configuración del desencadenador
 
 1. Seleccione el paso **Periodicidad**.
 
 1. Selecciona el nombre del paso **Periodicidad** y escribe `Daily`.
-
 
 ### Tarea 1.3: Consulta de nuevas tareas
 
@@ -67,12 +65,11 @@ En este laboratorio, creará un flujo programado.
 
 1. Seleccione la lista **Tareas**.
 
-1. En **Parámetros avanzados**, selecciona **Mostrar todo**.
+1. Junto a **Parámetros avanzados**, seleccione **Mostrar todos**.
 
 1. Seleccione el campo **Consulta de filtro** y escriba `ApprovalStatus eq 'New'`
 
     ![Captura de pantalla de la consulta de elementos de lista.](../media/list-items.png)
-
 
 ### Tarea 1.4: Seleccionar columnas
 
@@ -80,7 +77,9 @@ En este laboratorio, creará un flujo programado.
 
 1. Escriba `Select` en el cuadro de búsqueda.
 
-1. Seleccione **Integrado** en **Runtime**.
+1. Seleccione **Integrados**.
+
+    ![Recorte de pantalla de la búsqueda de la acción Seleccionar.](../media/add-select-action.png)
 
 1. Seleccions **Seleccionar** en **Operación de datos**.
 
@@ -112,12 +111,13 @@ En este laboratorio, creará un flujo programado.
 
     ![Captura de pantalla de los pasos de flujo sin bucles.](../media/flow-without-loops.png)
 
-
 ### Tarea 1.5: Crear tabla
 
 1. Seleccione el icono **+** en el paso Seleccionar y elija **Agregar una acción**.
 
 1. Escriba `create html` en el cuadro de búsqueda.
+
+1. Seleccione **Integrados**.
 
 1. Selecciona **Crear tabla HTML** en **Operación de datos**.
 
@@ -129,7 +129,6 @@ En este laboratorio, creará un flujo programado.
 
     ![Captura de pantalla de la acción Formato de tabla HTML.](../media/format-html-action.png)
 
-
 ### Tarea 1.6: Enviar correo electrónico
 
 1. Selecciona el icono **+** bajo el paso **Formatear como tabla HTML** y selecciona **Agregar una acción**.
@@ -140,9 +139,9 @@ En este laboratorio, creará un flujo programado.
 
 1. Selecciona **Enviar un nombre de paso de correo electrónico (V2)** y escribe `Notify by email`
 
-1. Seleccione el campo **Para** y seleccione **Escribir valor personalizado**.
+1. Seleccione el campo **Para** y escriba `MOD Administrator`.
 
-1. Escriba el identificador de usuario del inquilino en **Para**.
+1. Seleccione el identificador de usuario del inquilino en **Para**.
 
 1. Selecciona el campo **Asunto** y escribe `Daily Tasks`
 
@@ -151,7 +150,6 @@ En este laboratorio, creará un flujo programado.
 1. Seleccione **Salida** en **Formato como tabla HTML**.
 
 1. Seleccione **Guardar**.
-
 
 ## Ejercicio 2: Prueba del flujo programado
 
@@ -170,4 +168,3 @@ En este laboratorio, creará un flujo programado.
 1. En el portal de Power Automate, seleccione el **Iniciador de aplicaciones** en la parte superior izquierda de la ventana del navegador y después seleccione **Outlook**.
 
     ![Captura de pantalla de la acción Formato de tabla HTML.](../media/daily-tasks-email.png)
-

@@ -38,7 +38,7 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. En **Esquema**, seleccione **Columnas**.
 
-1. Seleccione la columna **Estado**.
+1. Seleccione la columna **Estado de la oportunidad**.
 
     ![Captura de pantalla de las columnas de estado.](../media/opportunity-status-column.png)
 
@@ -48,8 +48,7 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Copia el **nombre lógico** para su uso en el flujo.
 
-   > **Nota:** El prefijo de la columna de estado puede ser diferente.
-
+   > **Nota:** El prefijo de la columna "Estado de la oportunidad" puede ser diferente.
 
 ## Ejercicio 2: Creación de un flujo automatizado
 
@@ -71,7 +70,6 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Seleccione **Crear**.
 
-
 ### Tarea 2.2: Configuración del desencadenador
 
 1. Seleccione el paso **Cuando se agrega, modifica o elimina una fila**.
@@ -86,7 +84,6 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
     ![Captura de pantalla del desencadenador de fila de actualización.](../media/update-trigger.png)
 
-
 ### Tarea 2.3: enviar un mensaje de correo electrónico
 
 1. Seleccione el icono **+** en el paso del desencadenador y elija **Agregar una acción**.
@@ -97,7 +94,7 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Selecciona **Enviar un nombre de paso de correo electrónico (V2)** y escribe `Notify by email`
 
-1. Seleccione el campo **Para** y seleccione **Escribir valor personalizado**.
+1. Seleccione el campo **Para** y escriba `MOD Administrator`.
 
 1. Escriba el identificador de usuario del inquilino en **Para**.
 
@@ -109,25 +106,19 @@ En este laboratorio se filtrará un desencadenador de actualización.
 
 1. Selecciona el campo **Cuerpo**, selecciona el icono Contenido dinámico y selecciona **Ver más**.
 
-1. Seleccione **Estado** en **Oportunidad modificada**.
-
+1. En **Oportunidad cambiada**, seleccione **Estado de la oportunidad**.
 
 ### Tarea 2.4: Filtro de columna
 
 1. Seleccione el paso de desencadenador **Oportunidad cambiada**.
 
-1. Seleccione **Mostrar todo**
-
-1. Selecciona el campo **Seleccionar columnas** y escribe el **nombre lógico** del ejercicio anterior, por ejemplo: `cr977_status`
+1. Selecciona el campo **Seleccionar columnas** y escribe el **nombre lógico** del ejercicio anterior, por ejemplo: `cr977_opportunitystatus`
 
    > **Nota:** El prefijo de la columna de estado será diferente.
-
 
 ### Tarea 2.5: Filtro de fila
 
 1. Seleccione el paso **Oportunidad cambiada**.
-
-1. Seleccione **Mostrar todo**
 
 1. Selecciona el campo **Filtrar filas** y escribe `cr977_status eq 3` con el **Nombre lógico** del ejercicio anterior.
 
@@ -138,4 +129,3 @@ En este laboratorio se filtrará un desencadenador de actualización.
 1. Seleccione **Guardar**.
 
 1. Selecciona el botón **<-****Atrás** de la parte superior izquierda de la barra de comandos.
-

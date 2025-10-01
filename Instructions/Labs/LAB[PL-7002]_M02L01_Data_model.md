@@ -41,7 +41,6 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. En **Nombre para mostrar**, escribe `Opportunity`.
 
-
 ### Tarea 1.2: Columna principal
 
 1. Selecciona la pestaña **Columna principal** situada junto a la pestaña **Propiedades**.
@@ -51,7 +50,6 @@ En este laboratorio creará tablas y columnas de Dataverse.
 1. En **Nombre para mostrar**, escriba `Opportunity Subject`.
 
 1. Seleccione **Guardar**.
-
 
 ### Tarea 1.3: Adición de columnas
 
@@ -111,18 +109,17 @@ En este laboratorio creará tablas y columnas de Dataverse.
 1. En el panel **Columnas y datos de oportunidades**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
 
    1. Nombre para mostrar: `Notes`
-   1. Tipo de datos: **Varias líneas de texto**
+   1. Tipo de datos: **Texto** > **Varias líneas de texto** > **Texto sin formato**
    1. Formato: **Texto**
    1. Obligatorio: **Opcional**
 
 1. Seleccione **Guardar**.
 
-
 ### Tarea 1.4: Adición de una columna de elección
 
 1. En el panel **Columnas y datos de oportunidades**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
 
-   1. Nombre para mostrar: `Status`
+   1. Nombre para mostrar: `Opportunity Status`
    1. Tipo de datos: **Elección** > **Elección**
    1. Obligatorio: **Opcional**
 
@@ -140,7 +137,6 @@ En este laboratorio creará tablas y columnas de Dataverse.
 
 1. Seleccione **Guardar**.
 
-
 ## Ejercicio 2: Creación de relaciones
 
 ### Tarea 2.1: Creación de una columna de búsqueda
@@ -156,7 +152,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
 1. En el panel **Columnas y datos de oportunidades**, seleccione **+** y, en el panel **Nueva columna**, escriba o seleccione los valores siguientes:
 
    1. Nombre para mostrar: `Account`
-   1. Tipo de datos: **Lookup**
+   1. Tipo de datos: **Búsqueda** > **Búsqueda**
    1. Obligatorio: **Opcional**
    1. Tabla relacionada: **Cuenta**
 
@@ -185,7 +181,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Cliente: `Adventure Works`
    1. Fecha de cierre estimada: **Elegir una fecha del mes anterior**
    1. Importe: `10,000`
-   1. Estado: **Cerrado**
+   1. Estado de la oportunidad: **Cerrado**
 
 1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
 
@@ -193,7 +189,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Nombre del propietario: `MOD Administrator`
    1. Cliente: `Fabrikam`
    1. Fecha de cierre estimada: **Elegir una fecha futura del mes actual**
-   1. Estado: **Nuevo**
+   1. Estado de la oportunidad: **Nuevo**
    1. Importe: `50,000`
 
 1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
@@ -203,7 +199,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Cliente: `Coho Winery`
    1. Fecha de cierre estimada: **Elegir una fecha futura del mes siguiente**
    1. Importe: `25,000`
-   1. Estado: **Nuevo**
+   1. Estado de la oportunidad: **Nuevo**
 
 1. Seleccione **Insertar fila debajo** y escriba o seleccione los valores siguientes:
 
@@ -212,7 +208,7 @@ En este laboratorio creará tablas y columnas de Dataverse.
    1. Cliente: `Fourth Coffee`
    1. Fecha de cierre estimada: **Elegir una fecha futura del mes siguiente**
    1. Importe: `15,000`
-   1. Estado: **Abrir**
+   1. Estado de la oportunidad: **Abrir**
 
     ![Captura de pantalla del panel Editar datos.](../media/edit-data.png)
 

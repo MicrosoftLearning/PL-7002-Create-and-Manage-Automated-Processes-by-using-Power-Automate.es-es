@@ -45,19 +45,17 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Seleccione **Crear**.
 
-
 ### Tarea 1.2: Configuración del desencadenador
 
 1. Seleccione el paso **Cuando se crea un elemento**.
 
 1. Seleccione el paso **Cuando se crea un elemento** y escriba `New task`.
 
-1. Seleccione el **sitio de SharePoint de Power Automate** creado en el laboratorio anterior. Si el sitio no aparece en la lista, seleccione **Especificar valor personalizado** y pegue la dirección URL del sitio de SharePoint de Power Automate
+1. Seleccione el **sitio de SharePoint de Power Automate** creado en el laboratorio anterior. Si el sitio no aparece en la lista, seleccione **Escribir valor personalizado** y pegue la dirección URL del sitio de SharePoint de Power Automate.
 
 1. Seleccione la lista **Tareas**.
 
     ![Captura de pantalla del desencadenador de SharePoint.](../media/sharepoint-trigger.png)
-
 
 ### Tarea 1.3: Agregar acción de aprobación
 
@@ -67,7 +65,7 @@ En este laboratorio, creará un flujo de aprobación.
 
     ![Captura de pantalla de la búsqueda de aprobaciones.](../media/search-approval.png)
 
-1. Seleccione **Iniciar y esperar una aprobación** en **Aprobaciones**.
+1. En **Aprobaciones estándar**, seleccione **Iniciar y esperar aprobación**.
 
 1. Seleccione **Crear nuevo**.
 
@@ -75,7 +73,7 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Selecciona el paso **Iniciar y esperar una aprobación**, y escribe `Approval`
 
-1. Escribe `/` en el campo **Título** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo **Título** y seleccione **Insertar contenido dinámico**.
 
 1. Selecciona **Título** en **Nueva tarea**.
 
@@ -83,14 +81,15 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Escriba el identificador de usuario del inquilino para **Asignado a**.
 
-1. Escribe `/` en el campo **Detalles** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo **Detalles** y seleccione **Insertar contenido dinámico**.
 
 1. Seleccione **Descripción**.
 
-1. Escribe `/` en el campo **Vínculo de elemento** y selecciona **Insertar contenido dinámico**. 
+1. Escriba `/` en el campo **Vínculo de elemento** y seleccione **Insertar contenido dinámico**.
 
 1. Selecciona **Ver más**, selecciona **Vincular elemento**.
 
+    ![Recorte de pantalla del paso de acción Aprobación.](../media/start-approval-action.png)
 
 ### Tarea 1.4: Agregar condición
 
@@ -100,7 +99,7 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Seleccione **Condición** en **Control**.
 
-1. Escribe `/` en el campo izquierdo **Elegir un valor** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo de la izquierda **Elegir un valor** y seleccione **Insertar contenido dinámico**.
 
     ![Captura de pantalla del contenido dinámico de una condición.](../media/add-condition.png)
 
@@ -111,7 +110,6 @@ En este laboratorio, creará un flujo de aprobación.
 1. Selecciona el campo derecho **Elegir un valor** y escribe `Approve`
 
     ![Captura de pantalla de la condición.](../media/condition.png)
-
 
 ### Tarea 1.5: Acciones de estado de actualización
 
@@ -127,13 +125,13 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Seleccione la lista **Tareas**.
 
-1. Escribe `/` en el campo **Id.** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo **Id.** y seleccione **Insertar contenido dinámico**.
 
 1. Selecciona **Id.** en **Nueva tarea**.
 
-1. Seleccione **Mostrar todo** en **Parámetros avanzados**.
+1. Seleccione **Mostrar todos** junto a **Parámetros avanzados**.
 
-1. Escribe `/` en el campo **Título** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo **Título** y seleccione **Insertar contenido dinámico**.
 
 1. Seleccione **Título** en **Nueva tarea**.
 
@@ -151,13 +149,13 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Seleccione la lista **Tareas**.
 
-1. Escribe `/` en el campo **Id.** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo **Id.** y seleccione **Insertar contenido dinámico**.
 
 1. Selecciona **Id.** en **Nueva tarea**.
 
 1. Seleccione **Mostrar todo**.
 
-1. Escribe `/` en el campo **Título** y selecciona **Insertar contenido dinámico**.
+1. Escriba `/` en el campo **Título** y seleccione **Insertar contenido dinámico**.
 
 1. Seleccione **Título** en **Nueva tarea**.
 
@@ -166,7 +164,6 @@ En este laboratorio, creará un flujo de aprobación.
 1. Seleccione **Guardar**.
 
 1. En la parte superior izquierda de la barra de comandos, seleccione el botón **<-** Atrás.
-
 
 ## Ejercicio 2: Aprobación de pruebas
 
@@ -182,7 +179,6 @@ En este laboratorio, creará un flujo de aprobación.
    1. Deadline=**Today**
    1. Approval Status=**New**
 
-
 ### Tarea 2.2: Aprobación del progreso
 
 1. Ve al portal de Power Automate `https://make.powerautomate.com`
@@ -195,15 +191,13 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Seleccione la fecha y hora en el historial de ejecución de flujos.
 
-    > **Nota:** La funcionalidad Aprobaciones se instalará en segundo plano. Este proceso puede tardar 10 minutos, aproximadamente.
-
 1. Selecciona la pestaña **Aprobaciones** en el menú de navegación izquierdo.
 
     ![Captura de pantalla de aprobaciones en el portal.](../media/approvals.png)
 
 1. Seleccione la **Prueba de aprobación**, seleccione el **Tic** y seleccione **Confirmar**.
 
-1. Seleccione **Listo**.
+1. Selecciona **Listo.**
 
 1. Selecciona la pestaña **Mis flujos** del menú de navegación izquierdo.
 
@@ -211,7 +205,8 @@ En este laboratorio, creará un flujo de aprobación.
 
 1. Selecciona la fecha y la hora en el **historial de ejecución de 28 días**.
 
+1. Expanda el paso de condición.
+
 1. Vaya al sitio de SharePoint y seleccione la lista **Tareas**.
 
 1. Compruebe que el **Estado de aprobación** del elemento de **prueba de aprobación** es **Aprobado**.
-

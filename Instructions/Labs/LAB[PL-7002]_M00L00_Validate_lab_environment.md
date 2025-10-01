@@ -38,6 +38,8 @@ En este ejercicio, comprobará que puede acceder a Power Apps.
 
 1. Opcionalmente, seleccione **Sí** para mantener la sesión iniciada.
 
+1. Opcionalmente, seleccione No, gracias para iniciar sesión en Microsoft Edge.
+
 1. Si se le solicita información de contacto, deje el país o región como valor predeterminado y escriba `0123456789` para Número de teléfono y seleccione **Enviar**.
 
 1. En la parte superior derecha de la pantalla, compruebe que el **Entorno** está establecido en **Dev One**. Aquí es donde trabajará para la totalidad de este laboratorio. Si no es así, seleccione el entorno de **Dev One**.
@@ -65,6 +67,10 @@ En este ejercicio, comprobarás que puedes acceder a un equipo en Microsoft Team
 1. En una pestaña nueva del explorador, vaya a `https://teams.microsoft.com`
 
 1. Si se te pide que te familiarices con Teams, selecciona **Introducción** y cierra la ventana emergente.
+
+1. Expanda **Equipos y canal**.
+
+1. Seleccione **Ver todos los equipos**.
 
 ### Tarea 2.2: Creación de un equipo
 
